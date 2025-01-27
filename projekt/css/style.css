@@ -23,15 +23,23 @@ header img {
     height: 60px;
 
 }
+
+header button {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #899991;
+    font-size: 14px;
+    border: none;
+}
+
 .but-head {
     width: 50;
     height: 20;
+    border-color: #000000;
     border-radius: 25%;
     background-color:#899991;
 }
-header text {
 
-}
 .flex_column_container {
     display: flex;
     flex-direction: column;
@@ -67,20 +75,49 @@ header button {
 .searchbar_nav img {
 
 }
-.searchbar {
+/* .searchbar {
     border-radius: 5%;
     width: 161px;
     height: 33px;
+} */
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 10px;
+    width: 100%;
+    max-width: 400px;
 }
-.search {
-    display: inline;
-    width: 33px;
-    height: 33px;
+
+.searchbar input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    flex-grow: 1;
+    margin-right: 10px;
 }
+
+.searchbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.searchbar button img {
+    width: 20px;
+    height: 20px;
+}
+
 .burger {
-    width: 33px;
-    height: 33px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
 }
+
 .gry {
     display: flex;
     flex-direction: row;
@@ -113,14 +150,21 @@ header button {
 }
 
 .kontakty {
+    font-size: small;
     display: flex;
     flex-direction: row;
 }
 
 .contact {
-    font-size: small;
+    font-size: x-small;
     flex-direction: column;
     width: 80px;
+    height: 56px;
+}
+
+.contact img {
+    width: 36px;
+    height: 36px;
 }
 
 .map {
