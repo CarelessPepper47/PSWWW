@@ -110,9 +110,9 @@ input {
     border: 1px solid #ccc;
     border-radius: 20px;
     background-color: white;
-    padding: 5px 10px;
+    padding-left: 10px;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 
@@ -131,13 +131,13 @@ input {
 }
 
 .searchbar button img {
-    width: 20px;
-    height: 20px;
+    width: 36px;
+    height: 36px;
 }
 
 .burger {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -151,6 +151,8 @@ input {
     background-color: #F2B999;
     display: flex;
     border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
 }
 
 .newsletter h2 {
