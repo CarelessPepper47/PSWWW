@@ -26,10 +26,8 @@ header img {
 
 header button {
     font-weight: bold;
-    padding-left: 4px;
-    padding-right: auto;
     background-color: #899991;
-    text-align: left;
+    text-align: center;
     font-size: 10px;
     border: none;
     border-color: #000000;
@@ -55,8 +53,8 @@ header button {
 }
 .giery {
     width: 300px;
-    margin-left: 37.5px;
-    margin-right: 37.5px;
+    margin-left: auto;
+    margin-right: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     display: flex;
@@ -159,6 +157,12 @@ input {
     padding-bottom: 10px;
 }
 
+.imienaz {
+    width: 115px;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
 
 label {
     display: flex;
@@ -185,7 +189,7 @@ form {
 .inputs {
     margin-left: 22.5px;
     margin-right: 22.5px;
-    padding: 10px 0px;
+    padding: 10px 10px;
     display: flex;
     width: 250px;
 }
@@ -234,7 +238,8 @@ button {
 }
 
 .contact_with_us {
-    margin: 18px 37.5px;
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
 }
 
@@ -257,8 +262,8 @@ button {
     width: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 37.5px;
-    margin-right: 37.5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #frame {
@@ -270,11 +275,12 @@ button {
 
 .social_media {
     padding-left: 50px;
-    margin-left: 37.5px;
-    margin-right: 37.5px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
     height: 75px;
     background-color: #000000;
-    width: 375px;
+    width: auto;
     display: flex;
     flex-direction: row;
 }
