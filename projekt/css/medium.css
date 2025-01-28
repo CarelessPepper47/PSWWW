@@ -179,40 +179,42 @@ input {
 }
 
 .imienaz {
-    width: 115px;
     height: 25px;
     padding-left: 10px;
     border-radius: 15px;
 }
 
 label {
+    margin: 0px auto;
+    margin-bottom: 16px;
     display: flex;
 }
 
 form {
+    margin: 0px auto;;
+    width: 400px;
     font-size: 12px;
     display: flex;
     flex-direction: column;
 }
 
 #zapisz{
-    margin-left: 22.5px;
-    margin-right: 10px;
+
+    margin: 0px auto;;
 }
 
 #tos {
-    margin-left: 22.5px;
+    margin-right: 16px;
+    /* margin-left: 22.5px; */
     width: 16px;
     height: 16px;
     border-radius: 10%;
 }
 
 .inputs {
-    margin-left: 22.5px;
-    margin-right: 22.5px;
+    margin: 0px auto;
     padding: 10px 10px;
     display: flex;
-    width: 250px;
 }
 
 input p {
@@ -256,21 +258,31 @@ button {
     align-items: center;
 }
 
-.contact_with_us {
+.contact_with_us1 {
+    /* display: none; */
     margin-left: auto;
     margin-right: auto;
     width: 800px;
 }
 
-.contact_with_us h3 {
+.contact_with_us2 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.contact_with_us1 h3 {
     font-size: 8px;
 }
 
-.contact_with_us h2 {
+.contact_with_us1 h2 {
     font-weight: bold;
     margin: 10px 0px;
     font-size: 15px;
 }
+
+
 
 .map h2 {
     text-align: center;
